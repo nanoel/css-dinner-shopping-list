@@ -1,0 +1,137 @@
+*{
+	transition: all .1s ease-in;
+}
+
+html {
+	height: 100%
+}
+html, body {
+    min-height: 100%;
+}
+
+h1 {
+	font-size: 35px;
+	padding: 0
+}
+
+h4 {
+
+	font-size: 20px;
+}
+
+.shoping_list {
+	padding: 20px;
+	list-style: none;
+}
+
+li {
+	display: block;
+	background-color: #8986a1;
+}
+
+li:nth-child(2n) {
+	background-color: #797895;
+}
+
+li:hover {
+	border-bottom: 3px solid #fff;
+	border-top: 3px solid #fff;
+	background-color: #7f7b96;
+}
+li:active {
+	background-color: #EB7E7f;
+}
+
+
+body {
+
+	border: 25px solid #fff;
+	font-family: "Trebuchet MS", Trebuchet, Arial, sans-serif;
+	background-color: #0e0e0e;
+
+
+
+}
+.list_background {
+
+	background-color: #3B3F45;
+
+}
+
+.list_header {
+	display: block;
+	background-color: #4A4F56;
+	text-align: center;
+	color: #EB7E7f;
+	padding: 20px 0 20px;
+	max-width: 100%;
+}
+
+.list_container {
+	max-width: 60%;
+	display:block;
+	margin:0 auto;
+}
+
+footer {
+	display: block;
+	background-color: #4A4F56;
+	color: #EB7E7f;
+	text-align: center;
+	font-size: 35px;
+	padding: 20px 0 20px;
+
+}
+
+.list_container_label {
+	display: block;
+	padding: 15px;
+	cursor: pointer;
+
+}
+
+.shoping_list [type="checkbox"] {
+	/* width: 26px;
+	height: 26px;
+	margin-right: 10px; */
+	display: none;
+}
+.shoping_list label:before{
+	content:'';
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
+	margin-right: 10px;
+	border: 2px solid #fff;
+}
+
+.shoping_list [type="chekbox"]:checked label:before {
+background-color: #fff;
+
+}
+
+.list_describtion {
+	color: #cdcdd6;
+	font-size: 60%;
+
+}
+
+span {
+	color: #fff;
+}
+
+.shoping_list input[type="checkbox"]:checked + span{
+	text-decoration: line-through;
+	color: #a5a1bc;
+}
+
+small:before {
+	content: "(";
+}
+
+small:after {
+	content: ")";
+}
